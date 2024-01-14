@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fontes/Poppins-Medium.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'Pop';
+    src: url('../fontes/Poppins-Regular.otf') format('opentype');
+    
+}
+:root{
+    --cor1: #FF1C8D;
+    --cor2: #282B72;
+    --fonte-do-titulo: 'Poppins', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-texto: 'Pop', cursive;
+}
+body{
+    font-family: var(--fonte-padrao);
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+header  img{
+    display: inline;
+    width: 200px;
+    padding: 30px 500px 0px 30px;
+}
+nav > a{
+    font-family: var(--fonte-texto);
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    text-align: center;
+}
+nav > a:hover{
+    border-radius: 3px;
+    background-color: #FF1C8D;
+} 
