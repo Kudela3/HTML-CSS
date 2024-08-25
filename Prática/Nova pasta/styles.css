@@ -1,0 +1,19 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.calculator input {
+    width: 100%;
+    height: 50px;
+}
+
+.calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator button {
+    height: 50px;
+    font-size: 20px;
+}
