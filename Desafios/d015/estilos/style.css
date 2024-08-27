@@ -26,20 +26,20 @@ main {
 section#telefone{
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    height: 400px;
-    width: 311px;
+    height: 500px;
+    width: 310px;
     background: url('../imagens/frame-iphone.png') no-repeat;
     background-size: contain;
 }
 
 iframe{
     position: relative;
-    top: 50px;
-    left: 14.5px;
-    width: 170px;
-    height: 300px;
+    top: 64px;
+    left: 18px;
+    width: 212.5px;
+    height: 380px;
     
 }
 
