@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplos de formulário</h1>
+
+    <form action="cadastro.php" autocomplete="on" method="get">
+        
+        <p>
+            <label for="iano">Em que ano você foi nascido? </label>
+            <input type="number" name="num" id="inum" min="1999" max="2024" value="2001" oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="id">Sua idade é: </label>
+            <output id="id">0</output>
+        </p>
+
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
