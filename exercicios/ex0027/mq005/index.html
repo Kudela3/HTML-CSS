@@ -9,7 +9,8 @@
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <img src="imagem/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="menu" onclick="clickmenu()">
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -39,5 +40,14 @@
             </p>
         </article>
     </main>
+    <script>
+        function clickmenu(){   
+            if(itens.style.display == 'block'){
+                itens.style.display ='none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

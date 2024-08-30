@@ -19,8 +19,23 @@ header h1{
     padding: 10px;
 }
 
-menu{
+header img {
+    width: 30px;
+    background-color: rgb(48, 48, 48);
     display: block;
+    padding-left: 50vw;
+    padding-right: 50vw;
+    margin: auto;
+    cursor: pointer;
+}
+
+header img:hover {
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul{
